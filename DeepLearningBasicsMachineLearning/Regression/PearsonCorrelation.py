@@ -34,7 +34,7 @@ def polyFit(X,Y,degree):
     print "sstot:",ssreg
     results["determination"] = ssreg/sstot
     return results
-testX = [1,3,8,7,9]
+testX = [1,3,8,7,10]
 testY = [10,12,24,21,34]
 r = computerCorrelation(testX,testY)
 print "r:",  r
